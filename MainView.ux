@@ -1,7 +1,7 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
 	<Panel>
-		<StackPanel Padding="20">
+		<StackPanel Padding="20,100,20,20">
 			<Button Text="a" Padding="30" />
 			<Button Text="b" />
 			<Button Text="c" />
@@ -9,7 +9,8 @@
 			<Button Text="e" />
 			<Button Text="f" Width="100" Height="200" Alignment="Left" /> 
 		</StackPanel>
-		<Rectangle Alignment="Top" Width="100%" Height="300px" Fill="#E6933B" />
+		<Image File="assets/fotolia_104531540.jpg" Alignment="Top" Width="100%" Height="400px" StretchMode="Fill" />
+		<!-- <Rectangle Alignment="Top" Width="100%" Height="300px" Fill="#E6933B" /> -->
 	</Panel>
 
 </App>
