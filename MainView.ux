@@ -5,10 +5,10 @@
 			<ScrollingAnimation From="0" To="100">
                 <Change bgImage.Height="20%" />
             </ScrollingAnimation>
-			<StackPanel Padding="10" Margin="0,80,0,0" Background="#D6E2F4">
+			<StackPanel Padding="20" Margin="0,80,0,0" Background="#D6E2F4">
 				<TextInput Value="E-mail" />
-				<TextInput Value="Password" />
-				<Button Text="Login" /> 
+				<TextInput Value="Password" IsPassword="true" />
+				<Button Text="Login" Alignment="Center" Padding="40,20,40,20" /> 
 			</StackPanel>
 		</ScrollView>
 		<Image File="assets/fotolia_104531540.jpg" 
