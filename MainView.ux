@@ -1,6 +1,6 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
-	<StackPanel>
+	<StackPanel Orientation="Horizontal">
 		<Button Text="a" />
 		<Button Text="b" />
 		<Button Text="c" />
