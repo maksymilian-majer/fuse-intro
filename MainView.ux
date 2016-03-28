@@ -1,21 +1,27 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
-	<Panel>
-		<ScrollView Width="100%" Height="100%" Padding="20" Margin="0,20,0,0">
-			<ScrollingAnimation From="0" To="100">
-                <Change bgImage.Height="20%" />
-            </ScrollingAnimation>
-			<StackPanel Padding="20" Margin="0,80,0,0" Background="#D6E2F4">
-				<TextInput Value="E-mail" />
-				<TextInput Value="Password" IsPassword="true" />
-				<Button Text="Login" Alignment="Center" Padding="40,20,40,20" /> 
-			</StackPanel>
-		</ScrollView>
-		<Image File="assets/fotolia_104531540.jpg" 
-			Alignment="Top" Width="100%" Height="40%" StretchMode="UniformToFill" ContentAlignment="Top"
-			 ux:Name="bgImage" />
-		<!-- <Rectangle Alignment="Top" Width="100%" Height="300px" Fill="#E6933B" /> -->
-	</Panel>
-
+	<DockPanel>
+		<Panel Dock="Top">
+			<Image File="assets/fotolia_104531540.jpg" 
+				ux:Binding="Appearance"
+				StretchMode="UniformToFill" ContentAlignment="Top" />
+			<StatusBarBackground />
+		</Panel>
+		<Panel>
+			<ScrollView Width="100%" Height="100%" Padding="20" Margin="0,20,0,0">
+				<ScrollingAnimation From="0" To="100">
+	                <Change bgImage.Height="20%" />
+	            </ScrollingAnimation>
+				<StackPanel Padding="20" Margin="0,80,0,0" Background="#D6E2F4">
+					<TextInput Value="E-mail" />
+					<TextInput Value="Password" IsPassword="true" />
+					<Button Text="Login" Alignment="Center" Padding="40,20,40,20" /> 
+				</StackPanel>
+			</ScrollView>
+			<Image File="assets/fotolia_104531540.jpg" 
+				Alignment="Top" Width="100%" Height="40%" StretchMode="UniformToFill" ContentAlignment="Top"
+				 ux:Name="bgImage" />
+		</Panel>
+	</DockPanel>
 </App>
 
