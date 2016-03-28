@@ -1,12 +1,12 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
-	<StackPanel Orientation="Horizontal">
+	<StackPanel>
 		<Button Text="a" />
 		<Button Text="b" />
 		<Button Text="c" />
 		<Button Text="d" />
 		<Button Text="e" />
-		<Button Text="f" />
+		<Button Text="f" Width="100" Height="200" Alignment="Left" /> 
 	</StackPanel>
 </App>
 
