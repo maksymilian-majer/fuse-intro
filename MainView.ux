@@ -1,0 +1,14 @@
+<App Theme="Basic" Background="#D6E2F4">
+	<JavaScript File="built/MainView.js" />
+	<DockPanel>
+		<StatusBarBackground Dock="Top" />
+		<ScrollView ClipToBounds="true">
+			<StackPanel>
+				<Slider />
+				<Button Text="{buttonText}" Clicked="{click}" />
+				<Switch Alignment="Left" />
+			</StackPanel>
+		</ScrollView>
+	</DockPanel>
+</App>
+

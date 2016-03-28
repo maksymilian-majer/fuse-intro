@@ -1,0 +1,15 @@
+{
+	"compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "built",
+        "sourceMap": true,
+        "noImplicitReturns": true,
+        "watch": true
+    },
+    "files": [
+        "src/MainView.ts"
+    ]
+}
