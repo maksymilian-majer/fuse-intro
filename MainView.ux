@@ -1,5 +1,12 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
-	<Rectangle Fill="#203C6E" Width="100" Height="100" Alignment="TopLeft" Margin="20" />
+	<StackPanel>
+		<Button Text="a" />
+		<Button Text="b" />
+		<Button Text="c" />
+		<Button Text="d" />
+		<Button Text="e" />
+		<Button Text="f" />
+	</StackPanel>
 </App>
 
