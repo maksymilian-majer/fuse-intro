@@ -1,5 +1,6 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
+	<iOS.StatusBarConfig ux:Name="iosStatusBar" IsVisible="true" Animation="Slide" />
 	<DockPanel>
 		<Panel Dock="Top">
 			<Image File="assets/fotolia_104531540.jpg" 
@@ -11,6 +12,7 @@
 			<ScrollView Width="100%" Height="100%" Padding="20" Margin="0,20,0,0">
 				<ScrollingAnimation From="0" To="100">
 	                <Change bgImage.Height="20%" />
+	                <Change iosStatusBar.IsVisible="false" />
 	            </ScrollingAnimation>
 				<StackPanel Padding="20" Margin="0,80,0,0" Background="#D6E2F4">
 					<TextInput Value="E-mail" />
