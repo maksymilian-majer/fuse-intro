@@ -1,7 +1,7 @@
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
-	<StackPanel>
-		<Button Text="a" />
+	<StackPanel Padding="20">
+		<Button Text="a" Padding="30" />
 		<Button Text="b" />
 		<Button Text="c" />
 		<Button Text="d" />
