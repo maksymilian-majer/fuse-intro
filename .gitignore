@@ -62,5 +62,6 @@ build/
 
 #### PROJECT SPECIFIC ####
 bower_components
-typings
+typings/*
+!typings/custom
 built

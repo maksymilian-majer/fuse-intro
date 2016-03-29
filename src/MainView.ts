@@ -1,4 +1,4 @@
-/// <reference path="../fuse.d.ts" /> 
+/// <reference path="../typings/custom/fuse.d.ts" /> 
 import Observable = require('FuseJS/Observable');
 
 var buttonText = Observable('Button');
