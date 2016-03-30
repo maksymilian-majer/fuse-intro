@@ -1,3 +1,5 @@
+<!-- Using this palette:
+http://www.colourlovers.com/palette/3817374/CoC_2.0 -->
 <App Theme="Basic" Background="#D6E2F4">
 	<JavaScript File="built/MainView.js" />
 	<iOS.StatusBarConfig ux:Name="iosStatusBar" IsVisible="true" Animation="Slide" />
